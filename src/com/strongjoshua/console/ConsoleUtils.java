@@ -23,7 +23,7 @@ public final class ConsoleUtils {
 
 		while (cause != null) {
 			if (result.length() == 0) {
-				result.append("\nException in thread \"").append(Thread.currentThread().getName()).append("\" ");
+				result.append("\nException in thread.");
 			} else {
 				result.append("\nCaused by: ");
 			}
